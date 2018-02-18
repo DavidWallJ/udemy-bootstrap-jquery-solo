@@ -1,0 +1,25 @@
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+#preloader {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#status {
+	background-image: url('../img/preloader/preloader.gif');
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 70px;
+}
